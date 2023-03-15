@@ -6,7 +6,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat";
+  font-family: "Montserrat" !important;
+  background-color: #f7f7f7;
 }
 
 a {
@@ -19,3 +20,15 @@ a {
   /* linha abaixo está sendo usada para debuggar o css, favor nao apagar */
   /* outline: 1px solid red !important; */
 }
+
+/*
+ * possible dark mode (TBD)
+@media (prefers-color-scheme: dark) { 
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */

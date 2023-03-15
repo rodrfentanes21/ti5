@@ -1,7 +1,11 @@
-import Head from 'next/head'
-import { Inter } from 'next/font/google'
+import Head from "next/head";
+import { Inter } from "next/font/google";
+import Header from "../../components/Header";
+import Intro from "../../components/Intro";
 
-const inter = Inter({ subsets: ['latin'] })
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -12,9 +16,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div className="underline">teste xd</div>
+      <main className={montserrat.className}>
+        <Header />
+        <Intro />
+        <Intro />
       </main>
     </>
-  )
+  );
 }
