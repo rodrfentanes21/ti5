@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { useAnimation } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function SOSection() {
   const { ref, inView } = useInView({
@@ -54,7 +55,7 @@ export default function SOSection() {
             </span>{" "}
             Sobre Os SOs
           </h2>
-          <p className="grow">
+          <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
             debitis vero architecto sapiente veniam aperiam repellat, ea eveniet
             tenetur minima excepturi temporibus explicabo maxime, commodi
@@ -68,6 +69,7 @@ export default function SOSection() {
             explicabo maxime, commodi repudiandae! Ea voluptates neque
             distinctio?
           </p>
+          <Link href="/documentacao" className="">Nossa Documentação</Link>
         </div>
       </div>
     </motion.section>

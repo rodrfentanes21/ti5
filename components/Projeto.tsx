@@ -3,6 +3,7 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { useAnimation } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Projeto() {
   const { ref, inView } = useInView({
@@ -51,7 +52,7 @@ export default function Projeto() {
             </span>{" "}
             O Projeto
           </h2>
-          <p className="grow">
+          <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
             debitis vero architecto sapiente veniam aperiam repellat, ea eveniet
             tenetur minima excepturi temporibus explicabo maxime, commodi
@@ -65,6 +66,7 @@ export default function Projeto() {
             explicabo maxime, commodi repudiandae! Ea voluptates neque
             distinctio?
           </p>
+          <Link href="/projeto" className="">Saiba Mais</Link>
         </div>
         <div className="h-full w-1/2 grid place-items-center text-2xl">
           imagem
