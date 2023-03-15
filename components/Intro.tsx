@@ -16,7 +16,7 @@ export default function Intro() {
         Informações de diversos SOs <span className="text-dodgerblue-100">em uma só plataforma</span>
       </h1>
       <p className="text-xl text-slate-500 font-semibold w-3/4 text-center">
-        Está tendo problemas com seu para rodar seu Sistema Operacional e está considerando uma troca? Em nossa plataforma você poderá descobrir mais informações sobre diversos sistemas operacionais, seus requisitos e recomendações e muito mais!
+        Está tendo problemas com seu para rodar seu Sistema Operacional e está considerando uma troca? Em nossa plataforma você poderá descobrir informações sobre diversos sistemas operacionais, seus requisitos e recomendações e muito mais!
       </p>
     </motion.section>
   );
