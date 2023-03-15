@@ -12,30 +12,30 @@ export default function Header() {
         <Link
           href="#home"
           scroll={false}
-          className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
+          className="font-semibold grid place-items-center rounded-lg w-28 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
           Início
         </Link>
         <Link
           href="#project"
           scroll={false}
-          className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
+          className="font-semibold grid place-items-center rounded-lg w-28 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
           O Projeto
         </Link>
         <Link
           href="#so"
           scroll={false}
-          className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
+          className="font-semibold grid place-items-center rounded-lg w-28 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
           SOs
         </Link>
         <Link
-          href=""
+          href="#benchmark"
           scroll={false}
-          className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
+          className="font-semibold grid place-items-center rounded-lg w-28 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
-          Calculadora
+          Benchmark
         </Link>
       </nav>
       <button className="lg:hidden pr-5" onClick={() => setNavMenu(!isNavMenu)}>

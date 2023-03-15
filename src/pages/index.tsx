@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Intro from "../../components/Intro";
 import Projeto from "../../components/Projeto";
 import SOSection from "../../components/SOSection";
+import Benchmark from "../../components/Benchmark";
 
 import { Montserrat } from "next/font/google";
 
@@ -22,6 +23,7 @@ export default function Home() {
         <Intro />
         <Projeto />
         <SOSection />
+        <Benchmark />
       </main>
     </>
   );

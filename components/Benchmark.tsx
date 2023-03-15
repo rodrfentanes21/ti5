@@ -5,7 +5,7 @@ import { useAnimation } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function SOSection() {
+export default function Benchmark() {
   const { ref, inView } = useInView({
     threshold: 0.3,
   });
@@ -28,13 +28,10 @@ export default function SOSection() {
       ref={ref}
       initial={{ opacity: 0 }}
       animate={animation}
-      id="so"
+      id="benchmark"
       className="w-screen lg:w-full grid place-items-center h-screen"
     >
       <div className="flex justify-start h-3/4 w-[90%] items-start py-10">
-        <div className="h-full w-1/2 grid place-items-center text-2xl">
-          outro conteudo
-        </div>
         <div className="h-full w-1/2 flex flex-col gap-5">
           <h2 className=" text-dodgerblue-100 text-6xl font-semibold flex justify-start items-center">
             <span className="mx-5">
@@ -49,11 +46,11 @@ export default function SOSection() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z"
+                  d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z"
                 />
               </svg>
             </span>{" "}
-            Sobre Os SOs
+            Benchmark
           </h2>
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
@@ -70,11 +67,14 @@ export default function SOSection() {
             distinctio?
           </p>
           <Link
-            href="/documentacao"
+            href="/benchmark"
             className="w-40 h-12 bg-dodgerblue-100 transform ease-in-out transition duration-700 hover:bg-dodgerblue-300 grid place-items-center text-[#f7f7f7] rounded-xl uppercase"
           >
-            Documentação
+            Benchmark
           </Link>
+        </div>
+        <div className="h-full w-1/2 grid place-items-center text-2xl">
+          outro conteudo
         </div>
       </div>
     </motion.section>
