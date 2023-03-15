@@ -1,7 +1,8 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import Header from "../../components/Header";
 import Intro from "../../components/Intro";
+import Projeto from "../../components/Projeto";
+import SOSection from "../../components/SOSection";
 
 import { Montserrat } from "next/font/google";
 
@@ -19,7 +20,8 @@ export default function Home() {
       <main className={montserrat.className}>
         <Header />
         <Intro />
-        <Intro />
+        <Projeto />
+        <SOSection />
       </main>
     </>
   );

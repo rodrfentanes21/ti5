@@ -10,32 +10,32 @@ export default function Header() {
       <div className="ml-5">logo do site</div>
       <nav className="grow hidden lg:flex justify-center gap-10">
         <Link
-          href=""
+          href="#home"
           scroll={false}
           className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
-          topico
+          Início
+        </Link>
+        <Link
+          href="#project"
+          scroll={false}
+          className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
+        >
+          O Projeto
         </Link>
         <Link
           href=""
           scroll={false}
           className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
-          topico
+          SOs
         </Link>
         <Link
           href=""
           scroll={false}
           className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
-          topico
-        </Link>
-        <Link
-          href=""
-          scroll={false}
-          className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
-        >
-          topico
+          Calculadora
         </Link>
       </nav>
       <button className="lg:hidden pr-5" onClick={() => setNavMenu(!isNavMenu)}>
