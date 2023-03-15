@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import HamburgerDisplay from "./HamburgerDisplay";
-import SpecOSLogo from "../public/logospecos.png";
+import SpecOSLogo from "../public/logospecos-removebg.png";
 import Image from "next/image";
 
 export default function Header() {
