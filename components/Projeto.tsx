@@ -66,7 +66,7 @@ export default function Projeto() {
             explicabo maxime, commodi repudiandae! Ea voluptates neque
             distinctio?
           </p>
-          <Link href="/projeto" className="">Saiba Mais</Link>
+          <Link href="/projeto" className="w-40 h-12 bg-dodgerblue-100 transform ease-in-out transition duration-700 hover:bg-dodgerblue-300 grid place-items-center text-[#f7f7f7] rounded-xl uppercase">Saiba Mais</Link>
         </div>
         <div className="h-full w-1/2 grid place-items-center text-2xl">
           imagem

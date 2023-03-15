@@ -13,6 +13,8 @@ module.exports = {
       colors: {
         dodgerblue: {
           100: '#1E90FF',
+          200: '#0074E4',
+          300: '#005DB6',
         },
       },
     },

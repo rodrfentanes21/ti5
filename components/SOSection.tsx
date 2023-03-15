@@ -69,7 +69,7 @@ export default function SOSection() {
             explicabo maxime, commodi repudiandae! Ea voluptates neque
             distinctio?
           </p>
-          <Link href="/documentacao" className="">Nossa Documentação</Link>
+          <Link href="/documentacao" className="w-40 h-12 bg-dodgerblue-100 transform ease-in-out transition duration-700 hover:bg-dodgerblue-300 grid place-items-center text-[#f7f7f7] rounded-xl uppercase">Documentação</Link>
         </div>
       </div>
     </motion.section>
