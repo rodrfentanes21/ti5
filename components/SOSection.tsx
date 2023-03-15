@@ -28,7 +28,7 @@ export default function SOSection() {
       ref={ref}
       initial={{ opacity: 0 }}
       animate={animation}
-      id="project"
+      id="so"
       className="w-screen lg:w-full grid place-items-center h-screen"
     >
       <div className="flex justify-start h-3/4 w-[90%] items-start py-10">

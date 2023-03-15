@@ -24,7 +24,7 @@ export default function Header() {
           O Projeto
         </Link>
         <Link
-          href=""
+          href="#so"
           scroll={false}
           className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
