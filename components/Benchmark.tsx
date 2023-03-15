@@ -33,7 +33,7 @@ export default function Benchmark() {
     >
       <div className="flex justify-start h-3/4 w-[90%] items-start py-10">
         <div className="h-full w-1/2 flex flex-col gap-5">
-          <h2 className=" text-dodgerblue-100 text-6xl font-semibold flex justify-start items-center">
+          <h2 className=" text-dodgerblue-100 text-2xl md:text-3xl lg:text-6xl font-semibold flex justify-start items-center">
             <span className="mx-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ export default function Benchmark() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-16 h-16"
+                className="h-10 w-10 lg:w-16 lg:h-16"
               >
                 <path
                   strokeLinecap="round"
@@ -52,7 +52,7 @@ export default function Benchmark() {
             </span>{" "}
             Benchmark
           </h2>
-          <p className="">
+          <p className="text-xs md:text-sm lg:text-base">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
             debitis vero architecto sapiente veniam aperiam repellat, ea eveniet
             tenetur minima excepturi temporibus explicabo maxime, commodi
@@ -68,7 +68,7 @@ export default function Benchmark() {
           </p>
           <Link
             href="/benchmark"
-            className="w-40 h-12 bg-dodgerblue-100 transform ease-in-out transition duration-700 hover:bg-dodgerblue-300 grid place-items-center text-[#f7f7f7] rounded-xl uppercase"
+            className="w-28 h-8 text-xs lg:w-40 lg:h-12 lg:text-base bg-dodgerblue-100 transform ease-in-out transition duration-700 hover:bg-dodgerblue-300 grid place-items-center text-[#f7f7f7] rounded-xl uppercase"
           >
             Benchmark
           </Link>

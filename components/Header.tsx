@@ -1,13 +1,23 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import HamburgerDisplay from "./HamburgerDisplay";
+import SpecOSLogo from "../public/logospecos.png";
+import Image from "next/image";
 
 export default function Header() {
   const [isNavMenu, setNavMenu] = useState(false);
 
   return (
     <header className="flex justify-between lg:justify-start h-16 items-center fixed w-screen lg:w-full bg-opacity-20 backdrop-blur-lg z-20">
-      <div className="ml-5">logo do site</div>
+      <div className="ml-5">
+        <Image
+          src={SpecOSLogo}
+          alt="Picture of the author"
+          width={50}
+          height={50}
+          className="select-none"
+        />
+      </div>
       <nav className="grow hidden lg:flex justify-center gap-10">
         <Link
           href="#home"
@@ -44,7 +54,6 @@ export default function Header() {
           width="24"
           height="24"
           xmlns="http://www.w3.org/2000/svg"
-          
         >
           <path
             d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z"

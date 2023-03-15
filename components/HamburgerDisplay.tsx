@@ -1,13 +1,21 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import SpecOSLogo from "../public/logospecos.png";
 
 export default function HamburgerDisplay(props: any) {
   return props.trigger ? (
     <div className="z-50 w-full h-screen bg-[#f7f7f7] fixed top-0 left-0 flex flex-col align-middle items-center gap-6">
-      <div className="w-[100%] z-50 mx-auto bg-transparent flex flex-row absolute top-0 justify-between lg:justify-center items-center align-middle py-5">
-        <a href="/home" className=" select-none flex items-center pl-5">
-          logo do site
-        </a>
+      <div className="w-[100%] z-50 mx-auto bg-transparent flex flex-row absolute top-0 justify-between lg:justify-center items-center align-middle py-5 h-16">
+        <div className="ml-5">
+          <Image
+            src={SpecOSLogo}
+            alt="Picture of the author"
+            width={50}
+            height={50}
+            className="select-none"
+          />
+        </div>
         <button className="pr-5" onClick={() => props.setTrigger(false)}>
           <svg
             className="fill-black"
@@ -22,35 +30,35 @@ export default function HamburgerDisplay(props: any) {
       <div className="flex flex-col justify-center w-screen h-screen items-center gap-20">
         <Link
           onClick={() => props.setTrigger(false)}
-          href="#"
+          href="#home"
           scroll={false}
           className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
-          topico
+          Início
         </Link>
         <Link
           onClick={() => props.setTrigger(false)}
-          href="#"
+          href="#project"
           scroll={false}
           className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
-          topico
+          O Projeto
         </Link>
         <Link
           onClick={() => props.setTrigger(false)}
-          href="#"
+          href="#so"
           scroll={false}
           className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
-          topico
+          SOs
         </Link>
         <Link
           onClick={() => props.setTrigger(false)}
-          href="#"
+          href="#benchmark"
           scroll={false}
           className="font-semibold grid place-items-center rounded-lg w-24 h-10 transform ease-in-out transition duration-700 hover:bg-slate-200"
         >
-          topico
+          Benchmark
         </Link>
       </div>
     </div>
