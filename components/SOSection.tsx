@@ -31,8 +31,8 @@ export default function SOSection() {
       id="so"
       className="w-screen lg:w-full grid place-items-center h-screen"
     >
-      <div className="flex flex-row-reverse justify-start h-3/4 w-[90%] items-start py-10">
-      <div className="h-full w-1/2 flex flex-col gap-5">
+      <div className="flex flex-col lg:flex-row-reverse justify-start h-4/5 lg:h-3/4 w-[90%] items-start py-10">
+      <div className="h-full w-full lg:w-1/2 flex flex-col gap-5">
           <h2 className=" text-dodgerblue-100 text-2xl md:text-3xl lg:text-6xl font-semibold flex justify-start items-center">
             <span className="mx-5">
               <svg
@@ -68,12 +68,12 @@ export default function SOSection() {
           </p>
           <Link
             href="/documentacao"
-            className="w-28 h-8 text-xs lg:w-40 lg:h-12 lg:text-base bg-dodgerblue-100 transform ease-in-out transition duration-700 hover:bg-dodgerblue-300 grid place-items-center text-[#f7f7f7] rounded-xl uppercase"
+            className="w-28 h-8 text-xs lg:w-40 lg:h-12 lg:text-base bg-dodgerblue-100 transform ease-in-out transition duration-700 hover:bg-dodgerblue-300 grid place-items-center text-[#f7f7f7] rounded-xl uppercase mb-5"
           >
             Documentação
           </Link>
         </div>
-        <div className="h-full w-1/2 grid place-items-center text-2xl">
+        <div className="h-full w-full lg:w-1/2 grid place-items-center text-2xl">
           outro conteudo
         </div>
       </div>
