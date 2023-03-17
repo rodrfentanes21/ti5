@@ -53,18 +53,8 @@ export default function Benchmark() {
             Benchmark
           </h2>
           <p className="text-xs md:text-sm lg:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            debitis vero architecto sapiente veniam aperiam repellat, ea eveniet
-            tenetur minima excepturi temporibus explicabo maxime, commodi
-            repudiandae! Ea voluptates neque distinctio? Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Sunt debitis vero architecto
-            sapiente veniam aperiam repellat, ea eveniet tenetur minima
-            excepturi temporibus explicabo maxime, commodi repudiandae! Ea
-            voluptates neque distinctio? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Sunt debitis vero architecto sapiente veniam
-            aperiam repellat, ea eveniet tenetur minima excepturi temporibus
-            explicabo maxime, commodi repudiandae! Ea voluptates neque
-            distinctio?
+            Chegou a hora de você botar na prática a principal funcionalidade do nosso site, tenha em mãos as configurações da sua máquina e deixa a gente fazer o resto por você!
+            O benchmark irá analisar suas configurações e te recomendar os melhores sistemas operacionais para melhor desempenho do seu computador. Faça o teste!
           </p>
           <Link
             href="/benchmark"
@@ -74,7 +64,7 @@ export default function Benchmark() {
           </Link>
         </div>
         <div className="h-full w-full lg:w-1/2 grid place-items-center text-2xl">
-          outro conteudo
+        <Image src="/bench-removebg-preview.png" alt="Descrição da imagem" width={200} height={250} />       
         </div>
       </div>
     </motion.section>
