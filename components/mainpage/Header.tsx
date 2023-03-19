@@ -62,7 +62,7 @@ export default function Header(props: any) {
           <path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
         </svg>
       </button>
-      <HamburgerDisplay trigger={isNavMenu} setTrigger={setNavMenu} />
+      <HamburgerDisplay trigger={isNavMenu} setTrigger={setNavMenu} altUrl={props.altUrl} />
     </header>
   ) : (
     <header className="flex justify-between lg:justify-start h-16 items-center fixed w-screen lg:w-full bg-opacity-20 backdrop-blur-lg z-20">
@@ -119,7 +119,7 @@ export default function Header(props: any) {
           <path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
         </svg>
       </button>
-      <HamburgerDisplay trigger={isNavMenu} setTrigger={setNavMenu} />
+      <HamburgerDisplay trigger={isNavMenu} setTrigger={setNavMenu} altUrl={props.altUrl}  />
     </header>
   );
 }
