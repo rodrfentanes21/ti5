@@ -2,10 +2,10 @@ import React from "react";
 
 export default function MainSection() {
   return (
-    <section className="w-screen lg:w-full flex justify-center items-center lg:h-screen px-20 gap-5">
-      <div className="flex flex-col justify-start h-3/4 w-full lg:w-1/2 gap-5">
+    <section className="w-screen lg:w-full flex flex-col lg:flex-row justify-center items-center lg:h-screen px-5 lg:px-20 gap-5">
+      <div className="flex flex-col justify-center h-3/4 w-full lg:w-1/2 gap-5">
         <h2 className="text-3xl text-dodgerblue-100">titulo</h2>
-        <p>
+        <p className="text-justify">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quasi
           esse dolorem doloremque, delectus nisi odio ea tempore vitae commodi
           ratione adipisci illo iusto deserunt velit sit! Magni, et
