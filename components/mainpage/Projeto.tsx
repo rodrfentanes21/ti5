@@ -53,18 +53,10 @@ export default function Projeto() {
             O Projeto
           </h2>
           <p className="text-xs md:text-sm lg:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            debitis vero architecto sapiente veniam aperiam repellat, ea eveniet
-            tenetur minima excepturi temporibus explicabo maxime, commodi
-            repudiandae! Ea voluptates neque distinctio? Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Sunt debitis vero architecto
-            sapiente veniam aperiam repellat, ea eveniet tenetur minima
-            excepturi temporibus explicabo maxime, commodi repudiandae! Ea
-            voluptates neque distinctio? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Sunt debitis vero architecto sapiente veniam
-            aperiam repellat, ea eveniet tenetur minima excepturi temporibus
-            explicabo maxime, commodi repudiandae! Ea voluptates neque
-            distinctio?
+           O projeto SpecOs, foi criado pelos alunos Caio Massote, Henrique Moura, Rodrigo Paiva e Thiago Guerra do curso ciências da computação da PUC Minas.
+           Com o objetivo de unir em somente uma plataforma informações sobre arquitetura de computadores e sistemas operacionais e consequentemente poder proporcionar ao usuário conhecimento para 
+           poder escolher entre qual sistema operacional seria de bom desempenho para sua máquina em especifíco.
+           O projeto foi desenvolvido na linguagem TypeScript, com a biblioteca React e o meta-framework Next.js.
           </p>
           <Link
             href="/projeto"
@@ -73,9 +65,9 @@ export default function Projeto() {
             Saiba Mais
           </Link>
         </div>
-        <div className="h-full w-screen lg:w-1/2 grid place-items-center text-2xl">
-          imagem
-        </div>
+        <div className="h-full w-screen lg:w-1/2 grid place-items-center text-2x1">
+        <Image src="/pcgame.png" alt="Descrição da imagem" width={250} height={250} />       
+         </div>
       </div>
     </motion.section>
   );

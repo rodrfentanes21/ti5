@@ -53,18 +53,10 @@ export default function SOSection() {
             Sobre Os SOs
           </h2>
           <p className="text-xs md:text-sm lg:text-base">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            debitis vero architecto sapiente veniam aperiam repellat, ea eveniet
-            tenetur minima excepturi temporibus explicabo maxime, commodi
-            repudiandae! Ea voluptates neque distinctio? Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Sunt debitis vero architecto
-            sapiente veniam aperiam repellat, ea eveniet tenetur minima
-            excepturi temporibus explicabo maxime, commodi repudiandae! Ea
-            voluptates neque distinctio? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Sunt debitis vero architecto sapiente veniam
-            aperiam repellat, ea eveniet tenetur minima excepturi temporibus
-            explicabo maxime, commodi repudiandae! Ea voluptates neque
-            distinctio?
+            Vamos lá, antes de tudo, você sabe o quê é um sistema operacional? 
+            Um sistema operacional é um software fundamental que controla e gerencia os recursos de hardware e software de um computador ou dispositivo móvel. Ele é responsável por permitir que aplicativos e programas possam ser executados, acessando os recursos de hardware do computador, como o processador, memória, disco rígido, monitor e outros periféricos.
+            Os sistemas operacionais são desenvolvidos para atender às necessidades específicas de diferentes tipos de dispositivos e plataformas, como desktops, laptops, smartphones e tablets. Eles fornecem uma interface para que os usuários possam interagir com o computador, permitindo que eles executem tarefas de forma eficiente e eficaz.
+            Existem vários tipos de sistemas operacionais disponíveis atualmente, incluindo sistemas operacionais de desktop, como Windows, macOS e Linux, e sistemas operacionais móveis, como iOS e Android.
           </p>
           <Link
             href="/documentacao"
@@ -74,7 +66,7 @@ export default function SOSection() {
           </Link>
         </div>
         <div className="h-full w-full lg:w-1/2 grid place-items-center text-2xl">
-          outro conteudo
+        <Image src="/sos-removebg-preview.png" alt="Descrição da imagem" width={500} height={500} />   
         </div>
       </div>
     </motion.section>
