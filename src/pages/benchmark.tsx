@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import Header from "../../components/mainpage/Header";
 
 export default function benchmark() {
   return (
-    <div>benchmark</div>
-  )
+    <>
+      <Header altUrl={true} />
+      <div className="w-screen h-screen grid place-items-center">benchmark</div>
+    </>
+  );
 }

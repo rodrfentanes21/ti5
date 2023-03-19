@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import SpecOSLogo from "../public/logospecos-removebg.png";
+import SpecOSLogo from "../../public/logospecos-removebg.png";
 
 export default function HamburgerDisplay(props: any) {
   return props.trigger ? (

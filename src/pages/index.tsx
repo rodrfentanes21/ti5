@@ -1,13 +1,11 @@
 import Head from "next/head";
-import Header from "../../components/Header";
-import Intro from "../../components/Intro";
-import Projeto from "../../components/Projeto";
-import SOSection from "../../components/SOSection";
-import Benchmark from "../../components/Benchmark";
+import Header from "../../components/mainpage/Header";
+import Intro from "../../components/mainpage/Intro";
+import Projeto from "../../components/mainpage/Projeto";
+import SOSection from "../../components/mainpage/SOSection";
+import Benchmark from "../../components/mainpage/Benchmark";
 
-import { Montserrat } from "next/font/google";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -36,13 +34,11 @@ export default function Home() {
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <main className={montserrat.className}>
-        <Header />
+        <Header altUrl={false} />
         <Intro />
         <Projeto />
         <SOSection />
         <Benchmark />
-      </main>
     </>
   );
 }
