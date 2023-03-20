@@ -11,7 +11,7 @@ export default function HamburgerDisplay(props: any) {
           <div className="ml-5">
             <Image
               src={SpecOSLogo}
-              alt="Picture of the author"
+              alt="Logo"
               width={50}
               height={50}
               className="select-none"
@@ -69,7 +69,7 @@ export default function HamburgerDisplay(props: any) {
           <div className="ml-5">
             <Image
               src={SpecOSLogo}
-              alt="Picture of the author"
+              alt="Logo"
               width={50}
               height={50}
               className="select-none"
