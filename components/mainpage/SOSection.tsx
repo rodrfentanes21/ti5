@@ -29,7 +29,7 @@ export default function SOSection() {
       initial={{ opacity: 0 }}
       animate={animation}
       id="so"
-      className="w-screen lg:w-full grid place-items-center h-screen"
+      className="w-screen lg:w-full grid place-items-center h-[130vh]"
     >
       <div className="flex flex-col lg:flex-row-reverse justify-start h-4/5 lg:h-3/4 w-[90%] items-start py-10">
       <div className="h-full w-full lg:w-1/2 flex flex-col gap-5">
