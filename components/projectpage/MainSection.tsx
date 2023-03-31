@@ -8,7 +8,7 @@ export default function MainSection() {
       <div className="flex flex-col justify-center h-3/4 w-full lg:w-1/2 gap-5">
         <h2 className="text-3xl text-dodgerblue-100">Os Criadores</h2>
         <p className="text-justify">
-          (texto sobre pipi popopo alunos puc minas bla bla bla) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quasi
+          (texto sobre alunos puc minas etc) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quasi
           esse dolorem doloremque, delectus nisi odio ea tempore vitae commodi
           ratione adipisci illo iusto deserunt velit sit! Magni, et
           reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing
