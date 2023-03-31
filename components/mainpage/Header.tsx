@@ -4,7 +4,11 @@ import HamburgerDisplay from "./HamburgerDisplay";
 import SpecOSLogo from "../../public/logospecos-removebg.png";
 import Image from "next/image";
 
-export default function Header(props: any) {
+interface headerProps { 
+  altUrl : boolean
+}
+
+export default function Header(props: headerProps) {
   const [isNavMenu, setNavMenu] = useState(false);
 
   return props.altUrl ? (
@@ -69,10 +73,11 @@ export default function Header(props: any) {
       <div className="ml-5">
         <Image
           src={SpecOSLogo}
-          alt="Logo"
+          alt="Site Main Logo"
           width={50}
           height={50}
           className="select-none"
+          priority
         />
       </div>
       <nav className="grow hidden lg:flex justify-center gap-10">

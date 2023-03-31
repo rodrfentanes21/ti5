@@ -3,7 +3,13 @@ import React from "react";
 import Image from "next/image";
 import SpecOSLogo from "../../public/logospecos-removebg.png";
 
-export default function HamburgerDisplay(props: any) {
+interface hamburgerProps {
+  trigger : boolean
+  setTrigger : React.Dispatch<React.SetStateAction<boolean>>
+  altUrl : boolean
+}
+
+export default function HamburgerDisplay(props: hamburgerProps) {
   return props.trigger ? (
     props.altUrl ? (
       <div className="z-50 w-full h-screen bg-[#f7f7f7] fixed top-0 left-0 flex flex-col align-middle items-center gap-6">
@@ -11,10 +17,11 @@ export default function HamburgerDisplay(props: any) {
           <div className="ml-5">
             <Image
               src={SpecOSLogo}
-              alt="Logo"
+              alt="Site Main Logo"
               width={50}
               height={50}
               className="select-none"
+              priority
             />
           </div>
           <button className="pr-5" onClick={() => props.setTrigger(false)}>
