@@ -4,9 +4,9 @@ import Image from "next/image";
 import SpecOSLogo from "../../public/logospecos-removebg.png";
 
 interface hamburgerProps {
-  trigger : boolean
-  setTrigger : React.Dispatch<React.SetStateAction<boolean>>
-  altUrl : boolean
+  trigger: boolean;
+  setTrigger: React.Dispatch<React.SetStateAction<boolean>>;
+  altUrl: boolean;
 }
 
 export default function HamburgerDisplay(props: hamburgerProps) {

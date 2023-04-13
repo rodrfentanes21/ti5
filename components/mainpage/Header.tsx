@@ -4,8 +4,8 @@ import HamburgerDisplay from "./HamburgerDisplay";
 import SpecOSLogo from "../../public/logospecos-removebg.png";
 import Image from "next/image";
 
-interface headerProps { 
-  altUrl : boolean
+interface headerProps {
+  altUrl: boolean;
 }
 
 export default function Header(props: headerProps) {
@@ -66,7 +66,11 @@ export default function Header(props: headerProps) {
           <path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
         </svg>
       </button>
-      <HamburgerDisplay trigger={isNavMenu} setTrigger={setNavMenu} altUrl={props.altUrl} />
+      <HamburgerDisplay
+        trigger={isNavMenu}
+        setTrigger={setNavMenu}
+        altUrl={props.altUrl}
+      />
     </header>
   ) : (
     <header className="flex justify-between lg:justify-start h-16 items-center fixed w-screen lg:w-full bg-opacity-20 backdrop-blur-lg z-20">
@@ -124,7 +128,11 @@ export default function Header(props: headerProps) {
           <path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
         </svg>
       </button>
-      <HamburgerDisplay trigger={isNavMenu} setTrigger={setNavMenu} altUrl={props.altUrl}  />
+      <HamburgerDisplay
+        trigger={isNavMenu}
+        setTrigger={setNavMenu}
+        altUrl={props.altUrl}
+      />
     </header>
   );
 }
