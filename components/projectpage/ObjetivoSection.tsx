@@ -18,21 +18,15 @@ export default function ObjetivoSection() {
         </p>
         <ul className="list-disc px-5">
           <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            natus optio consequuntur obcaecati, neque{" "}
+          Fornecer informações precisas e atualizadas sobre os diferentes tipos de sistemas de informações disponíveis, incluindo sistemas de gestão empresarial, sistemas de gestão de banco de dados, sistemas de informação de marketing, sistemas de informação de recursos humanos e muito mais.{" "}
           </li>
           <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            natus optio consequuntur obcaecati, neque{" "}
+          Manter a plataforma atualizada e relevante, incorporando feedback dos usuários e se adaptando às mudanças no mercado e na tecnologia de sistemas de informações.{" "}
           </li>
           <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            natus optio consequuntur obcaecati, neque{" "}
+            Oferecer amplas comparações entre Sistemas Operacionais diferentes{" "}
           </li>
-          <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            natus optio consequuntur obcaecati, neque{" "}
-          </li>
+         
         </ul>
       </div>
 

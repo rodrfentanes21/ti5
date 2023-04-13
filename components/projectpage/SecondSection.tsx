@@ -4,17 +4,25 @@ export default function SecondSection() {
   return (
     <section className="w-screen lg:w-full flex flex-col lg:flex-row-reverse justify-center items-center lg:h-screen px-5 lg:px-20 gap-5">
       <div className="flex flex-col justify-center h-3/4 w-full lg:w-1/2 gap-5">
-        <h2 className="text-3xl text-dodgerblue-100">
-          Nossas motivacoes ou algo do tipo
-        </h2>
+        <h2 className="text-3xl text-dodgerblue-100">Nossas Motivações</h2>
         <p className="text-justify">
-          (texto sobre objetivo do site e funcionalidades finais etc) Lorem
-          ipsum dolor sit amet, consectetur adipisicing elit. Animi quasi esse
-          dolorem doloremque, delectus nisi odio ea tempore vitae commodi
-          ratione adipisci illo iusto deserunt velit sit! Magni, et
-          reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Distinctio ipsum est possimus, impedit minima porro commodi
-          laboriosam?
+          O desenvolvimento do SpecOS foi motivado por diversas razões,
+          incluindo a necessidade de informação para a tomada de decisão e a
+          busca por soluções mais eficientes e econômicas. Atualmente existe uma
+          crescente demanda por tecnologia e informação no mundo moderno. Com
+          tantas opções de sistemas operacionais disponíveis, muitas pessoas e
+          empresas podem ficar confusas sobre qual escolher. Nesse sentido, o
+          SpecOS pode ser uma ferramenta útil para ajudar a tomar uma decisão
+          informada. Além disso existe a necessidade de encontrar soluções mais
+          eficientes e econômicas. À medida que as empresas crescem, elas podem
+          precisar lidar com sistemas operacionais que não estão mais atendendo
+          às suas necessidades. Assim o SpecOS pode ajudar as empresas a
+          encontrar uma solução mais adequada para suas necessidades. Por fim, a
+          motivação por trás do desenvolvimento do SpecOS foi simplesmente
+          ajudar as pessoas a se manterem atualizadas sobre as tendências e
+          inovações na tecnologia. À medida que novos sistemas operacionais são
+          desenvolvidos, buscamos ajudar os usuários a entender melhor as
+          diferenças e benefícios de cada um.
         </p>
       </div>
 
