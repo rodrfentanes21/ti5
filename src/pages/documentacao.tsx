@@ -88,27 +88,20 @@ export default function documentacao() {
                 Bem Vindo(a) à nossa Documentação!
               </h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel
-                harum aliquam? Cum architecto repellat et iusto adipisci. Neque
-                aliquid ad exercitationem beatae repudiandae odio perspiciatis
-                perferendis voluptatum deserunt mollitia. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Nisi explicabo ipsum nesciunt
-                facilis ut vero qui nobis consequatur nam expedita ullam harum,
-                quibusdam dolore dolor molestiae similique autem repellat!
-                Dignissimos?
+                Nossa plataforma tem como objetivo sintetizar informações
+                disponíveis na internet em um só lugar, assim facilitando a
+                pesquisa sobre sistemas operacionais para o usuário médio.
               </p>
-              <h1 className="text-2xl bold">
-                Outro Paragrafo!
-              </h1>
+              <h1 className="text-2xl bold">Introdução</h1>
               <p className="w-[80%]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vel
-                harum aliquam? Cum architecto repellat et iusto adipisci. Neque
-                aliquid ad exercitationem beatae repudiandae odio perspiciatis
-                perferendis voluptatum deserunt mollitia. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Nisi explicabo ipsum nesciunt
-                facilis ut vero qui nobis consequatur nam expedita ullam harum,
-                quibusdam dolore dolor molestiae similique autem repellat!
-                Dignissimos?
+                Nessa documentação, nosso objetivo é sintetizar informações
+                gerais e expor qualidades e limitações de diversos sistemas
+                operacionais. 
+                <br />  
+                Para acessar informações sobre um SO específico,
+                basta utilizar a barra de navegação à esquerda e selecionar o
+                sistema desejado, e caso queira retornar para esta página, basta
+                clicar em "Introdução"!
               </p>
             </div>
           </div>
