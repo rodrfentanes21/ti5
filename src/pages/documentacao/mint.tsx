@@ -8,7 +8,7 @@ export default function documentacao() {
       <Header altUrl={true} />
       <div className="w-screen h-screen flex justify-center items-center p-20">
         <div className="flex justify-start items-center w-full h-full  rounded-2xl bg-slate-200">
-          <ul className="w-48 h-full flex flex-col justify-start items-center border border-[#f7f7f7] border-r-slate-400">
+          <ul className="w-64 h-full flex flex-col justify-start items-center border border-[#f7f7f7] border-r-slate-400">
             <li className="min-w-full h-12 grid place-items-center border border-[#f7f7f7] border-b-slate-400 hover:bg-slate-300 rounded-tl-xl">
               <Link className="w-full h-full grid place-items-center" href="/documentacao/">Introdução</Link>
             </li>
