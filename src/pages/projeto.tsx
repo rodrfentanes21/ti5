@@ -3,7 +3,7 @@ import Hero from "../../components/projectpage/Hero";
 import Header from "../../components/mainpage/Header";
 import MainSection from "../../components/projectpage/MainSection";
 import ObjetivoSection from "../../components/projectpage/ObjetivoSection";
-import SecondSection from "../../components/projectpage/SecondSection";
+import MotivationSection from "../../components/projectpage/MotivationSection";
 import ContactSection from "../../components/projectpage/ContactSection";
 
 export default function projeto() {
@@ -12,7 +12,7 @@ export default function projeto() {
       <Header altUrl={true} />
       <Hero />
       <MainSection />
-      <SecondSection />
+      <MotivationSection />
       <ObjetivoSection />
       <ContactSection />
     </>

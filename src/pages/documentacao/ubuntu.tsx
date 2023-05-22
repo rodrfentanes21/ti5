@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/mainpage/Header";
+import Header from "../../../components/mainpage/Header";
 import Link from "next/link";
 
 export default function documentacao() {
@@ -38,7 +38,7 @@ export default function documentacao() {
             </li>
           </ul>
           <div className="grow h-full flex justify-center items-center">
-            main
+            ubuntu
           </div>
         </div>
       </div>

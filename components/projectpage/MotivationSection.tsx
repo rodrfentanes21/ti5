@@ -1,6 +1,8 @@
 import React from "react";
+import Image from "next/image";
+import MotivacaoImg from "../../public/motivacao-removebg-preview.png"
 
-export default function SecondSection() {
+export default function MotivationSection() {
   return (
     <section className="w-screen lg:w-full flex flex-col lg:flex-row-reverse justify-center items-center lg:h-screen px-5 lg:px-20 gap-5">
       <div className="flex flex-col justify-center h-3/4 w-full lg:w-1/2 gap-5">
@@ -27,7 +29,14 @@ export default function SecondSection() {
       </div>
 
       <div className="w-[20rem] h-[20rem] lg:w-1/2 grid place-items-center select-none rounded-bl-3xl rounded-tr-3xl">
-        imagem
+        <Image
+          src={MotivacaoImg}
+          alt="puc minas photo"
+          placeholder="blur"
+          width={1000}
+          height={1000}
+          style={{ objectFit: "contain" }}
+        />
       </div>
     </section>
   );
