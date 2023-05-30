@@ -36,7 +36,7 @@ export default function documentacao() {
               <ul>
                 <li>4GB RAM</li>
                 <li>64GB de Espaço em Disco</li>
-                <li>CPU 1GHz velocidade de clock ccom 2 ou mais <i>cores</i></li>
+                <li>CPU 1GHz velocidade de clock com 2 ou mais <i>cores</i></li>
                 <li>Placa de vídeo compatível com DirectX 12 ou posterior</li>
               </ul>
             </div>
