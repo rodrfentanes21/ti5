@@ -153,7 +153,7 @@ export default function BenchmarkComponent() {
         <a
           className="w-28 h-8 text-xs lg:w-40 lg:h-12 lg:text-base bg-dodgerblue-100 transform ease-in-out transition duration-700 hover:bg-dodgerblue-300 grid place-items-center text-[#f7f7f7] rounded-xl uppercase mb-5"
           download
-          href="android-chrome-192x192.png"
+          href="teste.exe"
         >
           Download
         </a>
