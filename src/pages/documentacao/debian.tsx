@@ -12,25 +12,26 @@ export default function documentacao() {
         <DocsNavBar />
           <div className="grow h-full flex justify-center items-center">
           <div className="self-center w-4/5 h-4/5 flex flex-col gap-3 py-3 item-center justify-start">
-              <h1 className="text-2xl bold">Mint</h1>
+              <h1 className="text-2xl bold">Debian</h1>
               <p>
-                Linux Mint é um sistema operacional feito para funcionar assim
-                que instalado, contendo os aplicativos que um usuário médio
-                normalmente necessita desde o momento de sua instalação.
+              O sistema Debian é uma distribuição de software livre do sistema operacional GNU/Linux. Foi desenvolvido e é mantido por um grupo de voluntários em todo o mundo, 
+              que trabalham juntos sob os princípios do Projeto Debian. O Projeto Debian 
+              possui um objetivo central de fornecer um sistema operacional estável, seguro e de alta qualidade, seguindo rigorosamente os princípios de software livre.
                 <br />
-                Seu objetivo principal é ser um sistema Linux amigável, seguro e
-                com uma curva de aprendizado quase nula para novos usuários de
-                Linux, um SO ideal para alguem que não tem experiência com
-                outras distros e usou Windows/Mac a vida toda e está tentando entrar no mundo Linux
+                O sistema Debian é conhecido por sua estrutura estável e confiável, sua vasta seleção de pacotes de software e sua comunidade ativa de desenvolvedores e usuários. A distribuição é baseada em um modelo de desenvolvimento aberto e transparente, 
+                onde os pacotes de software são empacotados e mantidos individualmente por desenvolvedores e equipes específicas.
+                <br />
+                Além disso, o Debian é conhecido por sua grande diversidade de arquiteturas de hardware suportadas. 
+                A distribuição é compatível com uma ampla gama de plataformas, desde desktops e servidores convencionais até sistemas embarcados e supercomputadores.
                 <br />
                 Para mais informações, visite a 
                 <Link href="https://linuxmint.com/" target="_blank" className="text-dodgerblue-100"> página principal</Link>
               </p>
               <h1 className="text-2xl bold">Especificações Recomendadas:</h1>
               <ul>
-                <li>4GB RAM</li>
-                <li>100GB de Espaço em Disco</li>
-                <li>CPU 64 bits com 2GHz velocidade de clock</li>
+                <li>1GB RAM</li>
+                <li>10GB de Espaço em Disco</li>
+                <li>CPU com 1GHz velocidade de clock</li>
               </ul>
             </div>
           </div>

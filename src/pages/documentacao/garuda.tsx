@@ -14,9 +14,13 @@ export default function documentacao() {
             <div className="self-center w-4/5 h-4/5 flex flex-col gap-3 py-3 item-center justify-start">
               <h1 className="text-2xl bold">Garuda</h1>
               <p>
-                texto texto
+              O Garuda Linux é uma distribuição de software baseada em Linux que se destaca pela sua abordagem focada na velocidade, desempenho e estética visual. Com um ambiente de desktop personalizado, 
+              atualizações contínuas e uma seleção abrangente de aplicativos pré-instalados, o Garuda Linux oferece aos usuários uma experiência completa e pronta para uso.
                 <br />
+                O objetivo principal do Garuda Linux é fornecer uma distribuição Linux completa, pronta para uso e altamente personalizada. Com um ambiente de desktop visualmente atraente, desempenho otimizado, uma seleção de software abrangente 
+                e opções de personalização flexíveis, o Garuda Linux busca atender às necessidades e preferências dos usuários, oferecendo uma experiência completa e satisfatória.
                 Para mais informações, visite a
+                <br />
                 <Link
                   href="https://garudalinux.org/downloads.html"
                   target="_blank"
@@ -30,7 +34,7 @@ export default function documentacao() {
               <ul>
                 <li>4GB RAM</li>
                 <li>30GB de Espaço em Disco</li>
-                <li>Sistema de 64 bits</li>
+                <li>Sistema de 64 bits com 2 ghz de clock</li>
               </ul>
             </div>
           </div>

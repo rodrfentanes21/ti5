@@ -12,16 +12,14 @@ export default function documentacao() {
         <DocsNavBar />
           <div className="grow h-full flex justify-center items-center">
           <div className="self-center w-4/5 h-4/5 flex flex-col gap-3 py-3 item-center justify-start">
-              <h1 className="text-2xl bold">Mint</h1>
+              <h1 className="text-2xl bold">Fedora</h1>
               <p>
-                Linux Mint é um sistema operacional feito para funcionar assim
-                que instalado, contendo os aplicativos que um usuário médio
-                normalmente necessita desde o momento de sua instalação.
+              O sistema Fedora é uma distribuição de software livre baseada em Linux, desenvolvida pela comunidade Fedora e apoiada pela Red Hat. 
+              É conhecido por seu foco em inovação, segurança e desempenho, oferecendo uma experiência de usuário atualizada e confiável. 
+              O Fedora suporta uma ampla variedade de arquiteturas de hardware e oferece várias edições para atender às necessidades dos diferentes tipos de usuários.
                 <br />
-                Seu objetivo principal é ser um sistema Linux amigável, seguro e
-                com uma curva de aprendizado quase nula para novos usuários de
-                Linux, um SO ideal para alguem que não tem experiência com
-                outras distros e usou Windows/Mac a vida toda e está tentando entrar no mundo Linux
+                O objetivo principal do sistema Fedora é fornecer uma distribuição de software livre estável, confiável e atualizada, promovendo a inovação, 
+                a segurança e o desempenho. O projeto busca impulsionar o desenvolvimento de tecnologias de código aberto e contribuir para o avanço do ecossistema de software livre.
                 <br />
                 Para mais informações, visite a 
                 <Link href="https://linuxmint.com/" target="_blank" className="text-dodgerblue-100"> página principal</Link>
@@ -29,8 +27,8 @@ export default function documentacao() {
               <h1 className="text-2xl bold">Especificações Recomendadas:</h1>
               <ul>
                 <li>4GB RAM</li>
-                <li>100GB de Espaço em Disco</li>
-                <li>CPU 64 bits com 2GHz velocidade de clock</li>
+                <li>20GB de Espaço em Disco</li>
+                <li>CPU com 1GHz velocidade de clock</li>
               </ul>
             </div>
           </div>
