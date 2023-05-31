@@ -25,7 +25,7 @@ export default function documentacao() {
                 A distribuição é compatível com uma ampla gama de plataformas, desde desktops e servidores convencionais até sistemas embarcados e supercomputadores.
                 <br />
                 Para mais informações, visite a 
-                <Link href="https://linuxmint.com/" target="_blank" className="text-dodgerblue-100"> página principal</Link>
+                <Link href="https://www.debian.org/" target="_blank" className="text-dodgerblue-100"> página principal</Link>
               </p>
               <h1 className="text-2xl bold">Especificações Recomendadas:</h1>
               <ul>
