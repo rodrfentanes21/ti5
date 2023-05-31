@@ -22,7 +22,7 @@ export default function documentacao() {
                 a segurança e o desempenho. O projeto busca impulsionar o desenvolvimento de tecnologias de código aberto e contribuir para o avanço do ecossistema de software livre.
                 <br />
                 Para mais informações, visite a 
-                <Link href="https://linuxmint.com/" target="_blank" className="text-dodgerblue-100"> página principal</Link>
+                <Link href="https://fedoraproject.org/" target="_blank" className="text-dodgerblue-100"> página principal</Link>
               </p>
               <h1 className="text-2xl bold">Especificações Recomendadas:</h1>
               <ul>
