@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-// aqui
-
 const infosOS = [
   {
     name: "debian",
@@ -54,11 +52,10 @@ const infosOS = [
 ];
 
 export default function BenchmarkComponent() {
-  const [selectedValue, setSelectedValue] = useState("");
   const [inputValues, setInputValues] = useState({
-    input1: 0,
-    input2: 0,
-    input3: 0,
+    input1: "1",
+    input2: "0",
+    input3: "10",
   });
 
   const handleChange = (event: any) => {
@@ -68,26 +65,12 @@ export default function BenchmarkComponent() {
       [name]: value,
     }));
   };
+
   const downloadFile = () => {
-    // Create a dummy file to download
-    const fileContent = "This is the content of the file.";
-    const fileName = "example.txt";
-    const fileBlob = new Blob([fileContent], { type: "text/plain" });
-    const fileUrl = URL.createObjectURL(fileBlob);
-
-    // Create a temporary link element
-    const link = document.createElement("a");
-    link.href = fileUrl;
-    link.download = fileName;
-
-    // Simulate a click on the link to start the download
-    link.click();
-
-    // Clean up the temporary link and object URL
-    URL.revokeObjectURL(fileUrl);
+    window.location.href = "documentacao";
   };
 
-  const dybalaSalame = (event: any) => {
+  const handleSubmit = (event: any) => {
     event.preventDefault();
     console.log(inputValues.input1);
   };
@@ -95,15 +78,16 @@ export default function BenchmarkComponent() {
   return (
     <div className="flex justify-start items-center flex-col h-4/5 w-4/5 bg-slate-200 rounded-xl">
       <form
-        onSubmit={dybalaSalame}
+        onSubmit={handleSubmit}
         className="border flex flex-col justify-start py-20 items-center gap-2"
       >
         <div className="flex flex-col">
-          <label htmlFor="dropdown" className="mr-2">
+          <label htmlFor="input1" className="mr-2">
             Memória RAM
           </label>
           <select
             id="input1"
+            name="input1"
             value={inputValues.input1}
             onChange={handleChange}
             className="p-2 border rounded w-96"
@@ -116,11 +100,12 @@ export default function BenchmarkComponent() {
           </select>
         </div>
         <div className="flex flex-col">
-          <label htmlFor="dropdown" className="mr-2">
+          <label htmlFor="input2" className="mr-2">
             CPU
           </label>
           <select
             id="input2"
+            name="input2"
             value={inputValues.input2}
             onChange={handleChange}
             className="p-2 border rounded w-96"
@@ -132,11 +117,12 @@ export default function BenchmarkComponent() {
           </select>
         </div>
         <div className="flex flex-col">
-          <label htmlFor="text" className="mr-2">
+          <label htmlFor="input3" className="mr-2">
             Espaço em Disco
           </label>
           <select
             id="input3"
+            name="input3"
             value={inputValues.input3}
             onChange={handleChange}
             className="p-2 border rounded w-96"
@@ -164,12 +150,13 @@ export default function BenchmarkComponent() {
           Não sabe as especificações do seu PC? Baixe esse programa simples para
           conferir!
         </h2>
-        <button
+        <a
           className="w-28 h-8 text-xs lg:w-40 lg:h-12 lg:text-base bg-dodgerblue-100 transform ease-in-out transition duration-700 hover:bg-dodgerblue-300 grid place-items-center text-[#f7f7f7] rounded-xl uppercase mb-5"
-          onClick={downloadFile}
+          download
+          href="android-chrome-192x192.png"
         >
           Download
-        </button>
+        </a>
       </div>
     </div>
   );
