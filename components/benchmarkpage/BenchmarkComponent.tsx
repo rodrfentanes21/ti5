@@ -80,6 +80,7 @@ export default function BenchmarkComponent() {
               onChange={handleChange}
               className="p-2 border rounded w-96"
             >
+              <option value="0">0 GB</option>
               <option value="10">10 GB</option>
               <option value="20">20 GB</option>
               <option value="30">30 GB</option>
